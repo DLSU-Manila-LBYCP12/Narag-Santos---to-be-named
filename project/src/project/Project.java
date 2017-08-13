@@ -16,8 +16,11 @@ import acm.util.*;
 
 public class Project extends GraphicsProgram{
 
+    private ProjectCanvas canvas;
+    
     public void init(){
-        
+        canvas = new ProjectCanvas();
+        add(canvas);
     }
     
     public void start_game(){
@@ -33,7 +36,7 @@ public class Project extends GraphicsProgram{
     }
     
     public static void main(String[] args) {
-        
+        new Project().start();
     }
     
 }
