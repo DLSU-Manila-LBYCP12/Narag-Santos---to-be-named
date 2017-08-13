@@ -23,16 +23,19 @@ public class Project extends GraphicsProgram{
         add(canvas);
     }
     
+    //starts game
     public void start_game(){
         
     }
     
+    //scene selection
     public void scene_Select(){
         
     }
     
+    //exits
     public void exit(){
-        
+        this.stop();
     }
     
     public static void main(String[] args) {
