@@ -14,6 +14,9 @@ import acm.graphics.*;
 import acm.program.*;
 import acm.util.*;
 
-public class ProjectCanvas {
+public class ProjectCanvas extends GCanvas{
+    public void init(){
+    
+}
     
 }
