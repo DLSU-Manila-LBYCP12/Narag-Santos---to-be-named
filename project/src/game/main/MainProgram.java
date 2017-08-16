@@ -2,10 +2,15 @@ package game.main;
 
 import acm.graphics.*;
 import acm.program.*;
+import acm.util.ErrorException;
+import acm.util.*;
 import game.interfaces.*;
 import java.awt.Color;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
 
 public class MainProgram extends Program implements GameConstants{
     
@@ -15,6 +20,10 @@ public class MainProgram extends Program implements GameConstants{
     
     public void init(){
         add(canvas);
+        startscreen();
+    }
+    
+    public void startscreen(){
         startscreen.initstartscreen(canvas);
         start_game();
         scene_Select();
@@ -27,7 +36,7 @@ public class MainProgram extends Program implements GameConstants{
     }
     
     //starts game
-    public void start_game(){
+    public void start_game(){        
         startscreen.startbutton.addMouseListener(new MouseAdapter(){        
         @Override
         public void mousePressed(MouseEvent e){
@@ -37,8 +46,8 @@ public class MainProgram extends Program implements GameConstants{
         public void mouseReleased(MouseEvent e){
             startscreen.startbutton.setColor(new Color(76, 137, 166));
             canvas.removeAll();
-            gameui.drawtextbox(canvas);
-            gameui.writetext(canvas, "Filler charname","testing dialogue");
+            canvas.startchapter();
+            
         }
         });
         
@@ -78,3 +87,4 @@ public class MainProgram extends Program implements GameConstants{
         new MainProgram().start();
     }
 }
+
