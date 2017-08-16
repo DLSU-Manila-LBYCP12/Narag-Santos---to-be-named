@@ -1,0 +1,4 @@
+Regend_neutral.png midscreen :Let's see...it should be right around here, shouldn't it?]
+Regend :Hmm, getting around the city is harder than I thought...]
+Regend_tired.png midscreen :I don't really go out, so I guess it can't be helped.]
+Regend :I suppose asking around wouldn't hurt.]
