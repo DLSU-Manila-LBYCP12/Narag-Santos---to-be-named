@@ -1,4 +1,4 @@
-# Narag-Santos---to-be-named
+# Narag-Santos-Esteban---VN
 final project for lbycp12
 
 Interface ideas for the game
