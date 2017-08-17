@@ -46,7 +46,7 @@ public class MainProgram extends Program implements GameConstants{
         public void mouseReleased(MouseEvent e){
             startscreen.startbutton.setColor(new Color(76, 137, 166));
             canvas.removeAll();
-            canvas.startchapter();
+            canvas.startchapter(1);
             
         }
         });
