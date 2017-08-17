@@ -21,6 +21,9 @@ public class Chapter1 extends GraphicsProgram{
     
     private GImage city1 = new GImage("assets/bg/city1.jpg");
         
+    public void scenemod(int i){
+        linenumber = i;
+    }
     
     public void readfile (){
 		BufferedReader rd = null;
