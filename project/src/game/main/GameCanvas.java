@@ -18,7 +18,8 @@ public class GameCanvas extends GCanvas implements GameConstants {
         
     }    
     
-    public void startchapter (){
+    public void startchapter (int i){
+        chapter1.scenemod(i);
         chapter1.scene1(this);
 
     }
