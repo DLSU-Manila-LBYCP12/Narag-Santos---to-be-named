@@ -1,24 +1,7 @@
 # Narag-Santos-Esteban---VN
 Final project for LBYCP12
 
-Interface ideas for the game
-```
-Start screen
-  start_game();
-  select_scene();
-  exit();
-
-Game Canvas
-  textbox(string text);
-  show(character, location);
-  hidechar(character);
-  mainmenu();
-  clicktextbox();
-
-Main_Menu
-  inventory();
-  achievements();
-```
+"Let's Learn!: Linear Algebra" Visual Novel
 
 ```
 The MIT License (MIT)
@@ -46,9 +29,8 @@ SOFTWARE.
 
 ```
 Assets used
-
 Textbox image from - http://dsn-test.com/dsn-vn/images/text_box.png
 Character sprites from - Fate/Grand Order (Delightworks, Aniplex) © 2015
 Background Images from - Kimi no Na wa. (Funimation, CoMix Wave Films) © 2016
-Story based from - The Manga Guide to Linear Algebra (Shin Takahashi, TREND-PRO co., Ltd.) © 2012
+Story base and some images from - The Manga Guide to Linear Algebra (Shin Takahashi, TREND-PRO co., Ltd.) © 2012
 ```
