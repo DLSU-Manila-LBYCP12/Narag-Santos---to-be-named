@@ -3,6 +3,14 @@ Final project for LBYCP12
 
 "Let's Learn!: Linear Algebra" Visual Novel
 
+Features:
+
+- fun, educational story
+- beautiful visuals
+- scene selection function, with unviewed scenes not selectable
+- "previous line" function, to allow for quick and easy backtracking
+
+
 ```
 The MIT License (MIT)
 
