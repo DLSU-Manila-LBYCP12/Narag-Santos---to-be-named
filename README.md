@@ -10,6 +10,19 @@ Features:
 - scene selection function, with unviewed scenes not selectable
 - "previous line" function, to allow for quick and easy backtracking
 
+Screenshots:
+>![alt text](https://raw.githubusercontent.com/DLSU-Manila-LBYCP12/Narag-Santos-Esteban---VN/master/screenshots/Title_screen.png "Screenshot 1")
+>
+>![alt text](https://raw.githubusercontent.com/DLSU-Manila-LBYCP12/Narag-Santos-Esteban---VN/master/screenshots/Gameplay1.png "Screenshot 2")
+>
+>![alt text](https://raw.githubusercontent.com/DLSU-Manila-LBYCP12/Narag-Santos-Esteban---VN/master/screenshots/Gameplay2.png "Screenshot 3")
+>
+>![alt text](https://raw.githubusercontent.com/DLSU-Manila-LBYCP12/Narag-Santos-Esteban---VN/master/screenshots/Gameplay3.png "Screenshot 4")
+>
+>![alt text](https://raw.githubusercontent.com/DLSU-Manila-LBYCP12/Narag-Santos-Esteban---VN/master/screenshots/MenuScreen.png "Screenshot 5")
+>
+>![alt text](https://raw.githubusercontent.com/DLSU-Manila-LBYCP12/Narag-Santos-Esteban---VN/master/screenshots/SelectSceneScreen.png "Screenshot 6")
+>
 
 ```
 The MIT License (MIT)
